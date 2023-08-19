@@ -38,7 +38,7 @@ export default {
   <main>
     <div class="container">
       <div class="product_box">
-        <div class="products" v-for="data in products" :key="data.id">
+        <div class="products" v-for="data in products" :key="data?.id">
           <div class="img_box">
             <img :src="data?.image" alt="Image">
           </div>
