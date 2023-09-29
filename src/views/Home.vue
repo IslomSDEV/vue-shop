@@ -42,7 +42,6 @@ export default {
           <div class="img_box">
             <img :src="data?.image" alt="Image">
           </div>
-          s
           <h3 class="product_title">{{ data?.title }}</h3>
           <button @click="handleBasket(data)" class="product_btn">Qo'shish</button>
         </div>
