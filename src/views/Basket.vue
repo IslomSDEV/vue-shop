@@ -13,7 +13,7 @@ export default {
   <div class="basket">
     <div class="container">
       <div class="basket_box">
-        <div class="bsproducts" v-for="(info, i) in basketArr" :key="info.id">
+        <div class="bsproducts" v-for="(info) in basketArr" :key="info.id">
           <div class="bsimg_box">
             <img :src="info?.image" alt="Image">
           </div>
