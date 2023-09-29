@@ -21,7 +21,6 @@ export default {
   components: { Basket }
 }
 
-// import?
 </script>
 
 <template>
