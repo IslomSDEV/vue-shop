@@ -68,7 +68,9 @@ export default {
   border: 1px solid #00425a;
   cursor: pointer;
   font-size: 17px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.353);
+  color: #c5da4b4c;
+  color: #e3ffd3;
 }
 
 </style>
