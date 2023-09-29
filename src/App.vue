@@ -31,7 +31,6 @@ export default {
         <RouterLink class="nav_link" to="/">Home</RouterLink>
         <RouterLink class="nav_link" to="/basket">
           Basket
-          <!-- <img class="basket_picture" :src='BasketIcon' alt="icon"> -->
           <span class="countBas">{{ basketArr.length }}</span>
         </RouterLink>
       </nav>
