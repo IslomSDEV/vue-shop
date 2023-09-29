@@ -2,7 +2,6 @@
 
 import { RouterLink, RouterView } from 'vue-router';
 import Basket from './views/Basket.vue';
-// import BasketIcon from './assets/Image/basketIcon.svg';
 
 export default {
   data() {
@@ -22,6 +21,7 @@ export default {
   components: { Basket }
 }
 
+// import?
 </script>
 
 <template>
